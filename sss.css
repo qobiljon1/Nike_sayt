@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* header */
+header{
+    width: 100%;
+    height: 662px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('./header_bg_image.jpg');
+}
+header nav{
+    width: 1109px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .logo{
+    font-size: 20px;
+    font-weight: 700;
+    color: #cb0a15;
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+header ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #4d4d4d;
+    text-decoration: none;
+    transition: 500ms;
+    display: block;
+    padding: 22px 24px 21px 28px;
+}
+
+header ul li a:hover{
+    background-color: #515151;
+    color: #f7f7f7;
+}
+
+header h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: #cb0a15;
+    margin-top: 223px;
+    margin-bottom: 46px;
+}
+header p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #4d4d4d;
+}
+header span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+/* section */
+section{
+    width: 1105px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 101px 0 100px 0;
+}
+section .left-nike{
+    width: 539px;
+}
+section .left-nike .text-nike h1{
+    font-size: 25px;
+    font-weight: 700;
+    color: #2c2c2c;
+    margin-top: 61px;
+    margin-bottom: 37px;
+}
+section .left-nike .text-nike span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+section .left-nike .text-nike p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #919191;
+    line-height: 25px;
+}
+/* ========*/
+section .right-nike{
+    width: 531px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+section .right-nike .box{
+    display: flex;
+}
+section .right-nike .box .text-box{
+    margin-left: 30px;
+}
+section .right-nike .box .text-box h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 31px;
+}
+section .right-nike .box .text-box p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #919191;
+    line-height: 24px;
+}
+/* footer */
+footer{
+    width: 100%;
+    background: #f9f9f9;
+    padding: 51px 0 47px 0;
+    display: flex;
+    justify-content: center;
+}
+footer .narx{
+    width: 997px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .narx .narx-box h1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 22px ;
+}
+footer .narx .narx-box span{
+    font-size: 20px;
+    font-weight: 700;
+    color:
+     #cb0a15;
+}
+footer .narx .narx-box ul{
+    list-style: none;
+}
+footer .narx .narx-box ul a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #818181;
+    line-height: 25px;
+    transition: 500ms;
+}
+footer .narx .narx-box ul a:hover{
+    color: #cb0a15;
+}
